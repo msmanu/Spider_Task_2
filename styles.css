@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#canvas {
+  background: #f0f0f0;
+  border-radius: 5px;
+}
+
+#source {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#canvas {
+  background: #f0f0f0;
+  border-radius: 5px;
+}
+
+#rtime {
+  float: right;
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+#modalBackDrop {
+  display: block;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#whole {
+  display: none;
+}
+
+#first {
+  display: block;
+  z-index: 20;
+  padding: 25px;
+  border-top: 70px;
+  background-color: #FFE9D6;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  width: 350px;
+  top: 250px;
+  left: calc(50% - 175px);
+  position: absolute;
+  font-family: sans-serif;
+}
+
+#st {
+  margin-left: 20px;
+  float: left;
+  color:#52006A;
+}
+
+#ok {
+  text-align: center;
+  position: absolute;
+  right: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#last {
+  display: none;
+  z-index: 20;
+  padding: 25px;
+  background-color: #FFE9D6;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  border-top: 70px;
+  width: 350px;
+  top: 250px;
+  left: calc(50% - 175px);
+  position: absolute;
+  font-family: sans-serif;
+}
+
+#lt {
+  margin-left: 20px;
+  float: left;
+  position: relative;
+  bottom: 10px;
+  color: #52006A;
+}
+
+#ok1 {
+  text-align: center;
+  position: absolute;
+  top: 65px;
+  right: 30px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h1{
+  text-align: center;
+}
+
+button {
+  margin: 0;
+  margin-left: 20%;
+  padding: 15px;
+  float: left;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #867AE9;
+  color: #F9F3F3;
+  font-size: 1em;
+  display: block;
+  letter-spacing: 2px;
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+}
+
+button:hover {
+  background-color: #AF0069;
+  color: #DDDDDD;
+}
+
+#reset{
+  position: absolute;
+  left: -80px;
+  top: 50px;
+}
+
+#hscore{
+  position: absolute;
+  background-color: #BF1363;
+  right: 60px;
+  top: 500px;
+}
